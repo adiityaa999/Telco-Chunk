@@ -1,0 +1,13 @@
+TELCO CUSTOMER CHURN PROJECT SUMMARY
+
+Rows after cleaning: 7043
+Overall churn rate: 26.54%
+Highest churn contract: Month-to-month (42.71%)
+Highest churn payment method: Electronic check (45.29%)
+Best model by ROC-AUC: Logistic Regression
+
+              Model  Accuracy  Precision  Recall  F1 Score  ROC-AUC
+Logistic Regression    0.7388     0.5052  0.7834    0.6143   0.8415
+      Decision Tree    0.7346     0.5000  0.7888    0.6120   0.8240
+      Random Forest    0.7850     0.6220  0.4840    0.5444   0.8211
+        Extra Trees    0.7722     0.5847  0.4893    0.5328   0.7908
